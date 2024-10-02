@@ -24,7 +24,7 @@ public class MathUtil {
             throw new IllegalArgumentException("Invalid argument. n must be between 0..20");
         //hàm dừng liền, không cần return
         
-        //xuống đâylaf n = 0..20
+        //xuống đây là n = 0..20
         if (n == 0 || n == 1) 
             return 1; //dừng ngay khi n đặc biệt
         
